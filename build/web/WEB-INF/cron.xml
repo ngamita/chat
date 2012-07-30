@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+ <cron>
+ <url>/cron/assignagents</url>
+ <description>This Cron Job scans through the questions that need to be assigned to Agents. If Agent is available and free to answer, the question is assigned to the Agent.</description>
+ <schedule>every 1 minutes</schedule>
+ </cron>
+ <cron>
+ <url>/cron/sendagentreplies</url>
+ <description>This Cron Job scans answers that have been given by the Agent. It sends the answers to the users if they are available.</description>
+ <schedule>every 1 minutes</schedule>
+ </cron>
+</cronentries>
